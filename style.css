@@ -1,14 +1,52 @@
 menu{
     display: flex;
+    background-color: black;
 }
+
+body {
+    background-color: beige;
+}
+
 nav ul  {
     display: flex;
     justify-content: right;
     padding-top: 10px;
 }
+
+nav {
+    background-color: hwb(198 0% 0%);
+}
 nav ul li {
-    margin: 0 15px ;
+    margin: 0 10px ;
+    display: inline;
+    margin-left: 50px;
 }
 nav ul li a {
-    color: darksalmon;
+    list-style: none;
+    color: white;
+}
+.navbar-brand {
+    margin-left: -50px;
+}
+.table{
+    border: solid tan;
+}
+.decouvrir {
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    height: 60px;
+    width: 150px;
+    padding: 20px;
+    margin-left: 500px;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-top: 500px;
+}
+.container p {
+    font-size: 1.5em;
+    margin-top: 400px;
+    margin-left: 500px;
 }
