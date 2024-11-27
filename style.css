@@ -1,0 +1,14 @@
+menu{
+    display: flex;
+}
+nav ul  {
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+}
+nav ul li {
+    margin: 0 15px ;
+}
+nav ul li a {
+    color: darksalmon;
+}
